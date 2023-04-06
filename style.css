@@ -1,0 +1,136 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body{
+  padding-top: 10px; 
+  padding-bottom: 50px; 
+}
+
+t1{
+  font-family: "Trebuchet MS", fantasy; 
+  font-size: 21px; 
+  font-weight: bold;
+}
+
+.container{
+  margin: 0 auto;
+  border-radius: 25px;
+  background-color: ghostwhite;
+  box-shadow: 10px 10px 10px 10px #888899; 
+}
+.row{
+  flex-wrap: wrap;
+}
+
+.childBox1{
+  padding-top: 20px;
+  color: aliceblue;
+  border-radius: 25px; 
+  background: linear-gradient(0deg, rgba(39,99,200,1) 0%, rgba(79,35,224,1) 88%);
+  height: 400px; 
+  width: ;
+}
+
+.childBox2{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  height: 100%;
+  font-family: "Trebuchet MS", fantasy; 
+  display: flex;
+  align-items: space-between;
+  justify-content: center;
+}
+
+.grandChildBox{
+  width: 100%; 
+  display: flex;
+  justify-content: center;
+}
+
+.circleBox{
+  border-radius: 150px;
+  background: linear-gradient(0deg, rgba(63,112,195,1) 0%, rgba(41,31,152,1) 100%);
+  height: 150px;
+  width: 150px;
+  text-align: center;
+}
+
+.result{
+  padding-top: 40px;
+  font-size: 70px;
+  line-height: 1;
+}
+
+.fullmark{
+  line-height: 0;
+}
+
+.b{
+  padding-top: 15px;
+  color: white;
+  border-radius: 150px;
+  width: 170px; 
+  height: 40px; 
+  background-color: blue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.b:hover{
+  background-color: #133266;
+}
+
+.reaction{
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 15px;
+  color: red;
+  border-radius: 10px;
+  width: 190px; 
+  background-color: #ffeaea;
+  display: flex;
+  align-items: center;
+}
+
+.memory{
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 15px; 
+  color: #edb721; 
+  border-radius: 10px; 
+  width: 190px; 
+  background-color: #fffce5; 
+  display: flex; 
+  align-items: center; 
+}
+
+.verbal{
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 15px;
+  color: #2cb378;
+  border-radius: 10px;
+  width: 190px; 
+  background-color: #c9ffe2;
+  display: flex;
+  align-items: center;
+}
+
+.visual{
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 15px;
+  color: #2c64c3;
+  border-radius: 10px;
+  width: 190px; 
+  background-color: #e7ffff;
+  display: flex;
+  align-items: center;
+}
+
+.sp{
+  height: 10px; 
+}
